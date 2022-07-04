@@ -1,17 +1,25 @@
 {
   "name": "blog-app",
   "version": "0.1.0",
+  "license": "UNLICENSED",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
+    "framer-motion": "^6.3.16",
+    "gray-matter": "^4.0.3",
+    "mongodb": "^4.7.0",
     "next": "12.2.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-markdown": "^8.0.3",
+    "react-syntax-highlighter": "^15.5.0",
+    "sharp": "^0.30.7"
   },
   "devDependencies": {
     "eslint": "8.18.0",
